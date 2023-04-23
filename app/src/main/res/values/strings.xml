@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GENB</string>
+    <string name="label">"Enter Words "</string>
+    <string name="hint_text">Enter Words</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/light" />
+
+    <item>
+        <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/circle_blue"
+            android:pivotX="50%"
+            android:pivotY="50%" />
+    </item>
+
+    <item>
+        <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/circle_yellow"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="120" />
+    </item>
+
+    <item>
+        <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/circle_red"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="240" />
+    </item>
+</layer-list>
